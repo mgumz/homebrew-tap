@@ -1,12 +1,12 @@
 require 'formula'
 
 class Csgp < Formula
-  version   '1.0.1'
+  version   '1.0.2'
   homepage  'https://github.com/mgumz/csgp'
-  url       'https://github.com/mgumz/csgp/archive/v1.0.1.tar.gz'
-  sha256    '3a1c133b07428d647b2ae7acb99a16c31de032543072d9e74b910d0c82e7fffa'
+  url       'https://github.com/mgumz/csgp/archive/v1.0.2.tar.gz'
+  sha256    '57dfec8d354d8e260bea5d68ab7bc7b1e4e9179b4eb550786c638b5d3332d2aa'
 
-  head      'git@github.com:mgumz/csgp.git', :revision => '1f80dc10469ed56daa915ab4685de54f141edadc'
+  head      'git@github.com:mgumz/csgp.git', :revision => 'b4741af60661529eed23bd0e92d6982a06e345ee'
 
   def install
     system "make"
